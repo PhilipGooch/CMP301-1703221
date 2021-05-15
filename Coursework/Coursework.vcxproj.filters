@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shader Handlers">
+      <UniqueIdentifier>{8e30ffa6-3e9b-4602-9080-346b32636c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader Handlers">
+      <UniqueIdentifier>{ec36fea4-bf3e-4285-907b-14fd8ec09f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{46d9304b-65b0-46ec-ac1c-83d3349975d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{6bad1cf3-743e-42f2-a1c4-d67c756b4042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Alpha">
+      <UniqueIdentifier>{5f53d78c-0c0f-4342-b85a-b2e8b32f4a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Colour">
+      <UniqueIdentifier>{52e4ca1c-4a81-4109-8ac6-22abdb318c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Depth">
+      <UniqueIdentifier>{3c876a9e-a3f1-4df6-b263-5348883596ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\God ray">
+      <UniqueIdentifier>{094bb5c4-0f08-4570-82a2-7177f56421d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shadow">
+      <UniqueIdentifier>{6689b96b-1a76-415c-918b-4217a69a471a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Stencil">
+      <UniqueIdentifier>{209f2fcb-7f8d-498e-819a-2e4072bf5332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tessellation">
+      <UniqueIdentifier>{867be3cd-0238-402e-a91d-3c6b8602d7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Texture">
+      <UniqueIdentifier>{faa72ff2-6337-437d-91c2-007077c1836d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlaneMesh.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="StencilShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationCircleMesh.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBaseShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="GodRayShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleMesh.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationTextureShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files\Shader Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlaneMesh.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBaseShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationCircleMesh.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GodRayShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleMesh.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationTextureShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Shader Handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="alpha_ps.hlsl">
+      <Filter>Resource Files\Alpha</Filter>
+    </FxCompile>
+    <FxCompile Include="alpha_vs.hlsl">
+      <Filter>Resource Files\Alpha</Filter>
+    </FxCompile>
+    <FxCompile Include="colour_ps.hlsl">
+      <Filter>Resource Files\Colour</Filter>
+    </FxCompile>
+    <FxCompile Include="colour_vs.hlsl">
+      <Filter>Resource Files\Colour</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_ps.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="godRay_ps.hlsl">
+      <Filter>Resource Files\God ray</Filter>
+    </FxCompile>
+    <FxCompile Include="godRay_vs.hlsl">
+      <Filter>Resource Files\God ray</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_ps.hlsl">
+      <Filter>Resource Files\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_vs.hlsl">
+      <Filter>Resource Files\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="stencil_ps.hlsl">
+      <Filter>Resource Files\Stencil</Filter>
+    </FxCompile>
+    <FxCompile Include="stencil_vs.hlsl">
+      <Filter>Resource Files\Stencil</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_ds.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_hs.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_ps.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellation_vs.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellationTexture_ps.hlsl">
+      <Filter>Resource Files\Tessellation</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_ps.hlsl">
+      <Filter>Resource Files\Texture</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_vs.hlsl">
+      <Filter>Resource Files\Texture</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
